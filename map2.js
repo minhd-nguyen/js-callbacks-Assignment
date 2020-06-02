@@ -31,3 +31,25 @@ var phoneBook = [
 // For example, the 0th element of the new array should be {Abe: "1-111-111-1111"}
 
 //Your code here
+
+
+// let newPhonebook = [];
+// for (let i = 0; i < foods.length; i++) {
+// //   foodNames.push(foods[i].name)
+// // }
+
+// let foodNames = foods.map(function(food) {
+//   return food.name + " is " + food.tasteLevel + " delicious"
+// })
+
+// console.log(foodNames)
+
+let newPhonebook = [];
+phoneBook=phoneBook.map(function(number){
+  for (let i=0; i<phoneBook.length; i++) {
+    return Object.values(phoneBook[i]) = "1-" + Object.values(phoneBook[i]);
+    // console.log(Object.values(phoneBook[i]));
+  }
+  // return 
+})
+console.log(phoneBook);
